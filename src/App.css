@@ -1,0 +1,123 @@
+.App
+{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contentBox
+{
+  width: 70vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header
+{
+  width: 70vw;
+  display: flex;
+  height: fit-content;
+  margin-bottom: 4vmin;
+}
+
+.img
+{
+  width: 10vw;
+  height: 10vw;
+}
+
+.headerText
+{
+  width:60vw;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3vmin;
+  align-items: flex-start;
+}
+
+.inputContent
+{
+  width: 70vw;
+  height: fit-content;
+  display: flex;
+}
+
+.inputDivider
+{
+  width:50%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input
+{
+  margin-bottom: 4vmin;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-left: 3vmin;
+  outline:none;
+  width: 70%;
+}
+
+.fotter
+{
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  font-size: 2vmin;
+}
+
+button
+{
+  width:20vw;
+  height: fit-content;
+  padding: 1.5vmin;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  background-color: #8644A2;
+  margin-bottom: 1vmin;
+}
+
+.line-with-text {
+  display: flex;
+  align-items: center;
+  margin-top: 1.5vmin;
+}
+
+.line {
+  flex-grow: 1;
+  border: none; 
+  border-top: 1px solid black; 
+  margin: 0 5px; 
+}
+
+.text {
+  padding: 0 10px;
+}
+
+.loginbtn
+{
+  width:4vmin;
+  height: 4vmin;
+}
+
+.btnHolder
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  padding:2vmin;
+}
